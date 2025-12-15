@@ -1,0 +1,16 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Arkadiusz Hryc
+theme: ["PaperMod"]
+params:
+  homeInfoParams:
+    Title: Hi there, I'm Arek
+    Content: Python enthusiast working in finance
+  socialIcons:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/arkadiuszhryc/"
+    - name: "GitHub"
+      url: "https://github.com/arkadiuszhryc/"
+caches:
+  images:
+    dir: :cacheDir/images
