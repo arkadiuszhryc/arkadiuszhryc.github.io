@@ -5,7 +5,7 @@ theme: ["PaperMod"]
 params:
   homeInfoParams:
     Title: "Hi there, I'm Arek :wave:"
-    Content: Python enthusiast working in finance
+    Content: "Data analyst using Python & SQL to automate the world of finance"
   socialIcons:
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/arkadiuszhryc/"
