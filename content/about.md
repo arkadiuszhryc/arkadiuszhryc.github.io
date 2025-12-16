@@ -3,9 +3,11 @@
 ### Bringing automation to the chaotic world of finance :bank:
 
 Using magic of Python and SQL have designed and created many solutions used daily to:
-- reconcile the data and prepare it for reporting
-- use the standard templates in calculations
-- gather and analyse KPIs
+- reconcile the data and prepare it for reporting,
+- use the standard templates in calculations,
+- gather and analyse KPIs,
+- scrap data from unorganised internal sources and network locations,
+- and to reduce manual processes, like repetitive operations on folders and files.
 
 ### 5 years of experience :older_man:
 
