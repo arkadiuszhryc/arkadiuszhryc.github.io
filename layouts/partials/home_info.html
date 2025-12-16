@@ -1,0 +1,33 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">{{ .Content | markdownify }}</div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align"
+        site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+    <br />
+    <h2>My projects:</h2>
+    <br />
+    <article class="post-entry">
+        <header class="entry-header">
+            <h2 class="entry-hint-parent">
+                Modern Portfolio Theory - streamlit app
+            </h2>
+        </header>
+        <div class="entry-content">
+            <p>
+                A simple streamlit app allowing to quickly download the data for
+                specified tickers and calculate optimal portfolio weights
+            </p>
+        </div>
+        <a
+            class="entry-link"
+            aria-label="post link to Features / Mods"
+            href="https://arkadiuszhryc-mpt.streamlit.app/"
+        ></a>
+    </article>
+</article>
+{{- end -}}
